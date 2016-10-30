@@ -138,7 +138,12 @@ $queries = array(
                 'INSERT INTO order_statuses VALUES ( NULL, "partially paid" );',
                 'INSERT INTO order_statuses VALUES ( NULL, "paid" );',
                 'INSERT INTO order_statuses VALUES ( NULL, "successfully completed" );',
-                'INSERT INTO order_statuses VALUES ( NULL, "cancelled" );'
+                'INSERT INTO order_statuses VALUES ( NULL, "cancelled" );',
+                'INSERT INTO room_types VALUES ( NULL, "standart" );',
+                'INSERT INTO room_types VALUES ( NULL, "delux" );',
+                'INSERT INTO room_types VALUES ( NULL, "double" );',
+                'INSERT INTO room_types VALUES ( NULL, "villa" );',
+                'INSERT INTO room_types VALUES ( NULL, "bungalow" );'
 );
 
 $server   = 'localhost';

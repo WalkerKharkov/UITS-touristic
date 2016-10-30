@@ -47,78 +47,83 @@
       <file leaf-file-name="db_install.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/db_install.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76376814">
-              <caret line="136" column="84" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.8376812">
+              <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
               <folding>
-                <marker date="1477845064968" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
-                <marker date="1477845064968" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
-                <marker date="1477845064968" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
-                <marker date="1477845064968" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
-                <marker date="1477845064968" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
-                <marker date="1477845064968" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
-                <marker date="1477845064968" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
-                <marker date="1477845064968" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
-                <marker date="1477845064968" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
-                <marker date="1477845064968" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
-                <marker date="1477845064968" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
-                <marker date="1477845064968" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
-                <marker date="1477845064968" expanded="true" signature="1215:1852" placeholder="CREATE TABLE... orders" />
-                <marker date="1477845064968" expanded="true" signature="1215:1899" placeholder="CREATE TABLE... orders" />
-                <marker date="1477845064968" expanded="true" signature="1215:1937" placeholder="CREATE TABLE... orders" />
-                <marker date="1477845064968" expanded="true" signature="1215:1956" placeholder="CREATE TABLE... orders" />
-                <marker date="1477845064968" expanded="true" signature="1994:2234" placeholder="CREATE TABLE... order_statuses" />
-                <marker date="1477845064968" expanded="true" signature="2272:2554" placeholder="CREATE TABLE... resorts" />
-                <marker date="1477845064968" expanded="true" signature="2272:2611" placeholder="CREATE TABLE... resorts" />
-                <marker date="1477845064968" expanded="true" signature="2649:2814" placeholder="CREATE TABLE... roles" />
-                <marker date="1477845064968" expanded="true" signature="2649:2852" placeholder="CREATE TABLE... roles" />
-                <marker date="1477845064968" expanded="true" signature="2649:2871" placeholder="CREATE TABLE... roles" />
-                <marker date="1477845064968" expanded="true" signature="2909:3199" placeholder="CREATE TABLE... rooms" />
-                <marker date="1477845064968" expanded="true" signature="2909:3237" placeholder="CREATE TABLE... rooms" />
-                <marker date="1477845064968" expanded="true" signature="2909:3256" placeholder="CREATE TABLE... rooms" />
-                <marker date="1477845064968" expanded="true" signature="3294:3473" placeholder="CREATE TABLE... room_types" />
-                <marker date="1477845064968" expanded="true" signature="3294:3530" placeholder="CREATE TABLE... room_types" />
-                <marker date="1477845064968" expanded="true" signature="3568:3747" placeholder="CREATE TABLE... transports" />
-                <marker date="1477845064968" expanded="true" signature="3568:3804" placeholder="CREATE TABLE... transports" />
-                <marker date="1477845064968" expanded="true" signature="3842:4332" placeholder="CREATE TABLE... trips" />
-                <marker date="1477845064968" expanded="true" signature="3842:4389" placeholder="CREATE TABLE... trips" />
-                <marker date="1477845064968" expanded="true" signature="4427:4831" placeholder="CREATE TABLE... users" />
-                <marker date="1477845064968" expanded="true" signature="4427:4869" placeholder="CREATE TABLE... users" />
-                <marker date="1477845064968" expanded="true" signature="4427:4888" placeholder="CREATE TABLE... users" />
-                <marker date="1477845064968" expanded="true" signature="4926:5100" placeholder="CREATE TABLE... visas" />
-                <marker date="1477845064968" expanded="true" signature="4926:5138" placeholder="CREATE TABLE... visas" />
-                <marker date="1477845064968" expanded="true" signature="4926:5157" placeholder="CREATE TABLE... visas" />
-                <marker date="1477845064968" expanded="true" signature="5195:5302" placeholder="ALTER TABLE countries... " />
-                <marker date="1477845064968" expanded="true" signature="5323:5435" placeholder="ALTER TABLE s... " />
-                <marker date="1477845064968" expanded="true" signature="5456:5564" placeholder="ALTER TABLE hotels... " />
-                <marker date="1477845064968" expanded="true" signature="5585:5690" placeholder="ALTER TABLE rooms... " />
-                <marker date="1477845064968" expanded="true" signature="5711:5824" placeholder="ALTER TABLE rooms... " />
-                <marker date="1477845064968" expanded="true" signature="5845:5949" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="5970:6076" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="6097:6205" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="6226:6335" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="6356:6461" placeholder="ALTER TABLE clients... " />
-                <marker date="1477845064968" expanded="true" signature="6482:6585" placeholder="ALTER TABLE users... " />
-                <marker date="1477845064968" expanded="true" signature="6606:6710" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="6731:6852" placeholder="ALTER TABLE orders... " />
-                <marker date="1477845064968" expanded="true" signature="6873:6986" placeholder="ALTER TABLE trips... " />
-                <marker date="1477845064968" expanded="true" signature="7007:7039" placeholder="INSERT INTO roles... " />
-                <marker date="1477845064968" expanded="true" signature="7007:7046" placeholder="INSERT INTO roles... " />
-                <marker date="1477845064968" expanded="true" signature="7007:7049" placeholder="INSERT INTO roles... " />
-                <marker date="1477845064968" expanded="true" signature="7070:7114" placeholder="INSERT INTO roles... " />
-                <marker date="1477845064968" expanded="true" signature="7135:7178" placeholder="INSERT INTO roles... " />
-                <marker date="1477845064968" expanded="true" signature="7199:7246" placeholder="INSERT INTO transports... " />
-                <marker date="1477845064968" expanded="true" signature="7267:7314" placeholder="INSERT INTO transports... " />
-                <marker date="1477845064968" expanded="true" signature="7335:7380" placeholder="INSERT INTO transports... " />
-                <marker date="1477845064968" expanded="true" signature="7401:7447" placeholder="INSERT INTO transports... " />
-                <marker date="1477845064968" expanded="true" signature="7468:7517" placeholder="INSERT INTO visas... " />
-                <marker date="1477845064968" expanded="true" signature="7538:7583" placeholder="INSERT INTO visas... " />
-                <marker date="1477845064968" expanded="true" signature="7604:7651" placeholder="INSERT INTO visas... " />
-                <marker date="1477845064968" expanded="true" signature="7672:7716" placeholder="INSERT INTO visas... " />
-                <marker date="1477845064968" expanded="true" signature="7737:7803" placeholder="INSERT INTO order_ststuses... " />
-                <marker date="1477845064968" expanded="true" signature="7824:7884" placeholder="INSERT INTO order_ststuses... " />
-                <marker date="1477845064968" expanded="true" signature="7905:7955" placeholder="INSERT INTO order_ststuses... " />
-                <marker date="1477845064968" expanded="true" signature="7976:8044" placeholder="INSERT INTO order_ststuses... " />
-                <marker date="1477845064968" expanded="true" signature="8065:8120" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
+                <marker date="1477845420302" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
+                <marker date="1477845420302" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
+                <marker date="1477845420302" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
+                <marker date="1477845420302" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
+                <marker date="1477845420302" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
+                <marker date="1477845420302" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
+                <marker date="1477845420302" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
+                <marker date="1477845420302" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477845420302" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477845420302" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477845420302" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477845420302" expanded="true" signature="1215:1852" placeholder="CREATE TABLE... orders" />
+                <marker date="1477845420302" expanded="true" signature="1215:1899" placeholder="CREATE TABLE... orders" />
+                <marker date="1477845420302" expanded="true" signature="1215:1937" placeholder="CREATE TABLE... orders" />
+                <marker date="1477845420302" expanded="true" signature="1215:1956" placeholder="CREATE TABLE... orders" />
+                <marker date="1477845420302" expanded="true" signature="1994:2234" placeholder="CREATE TABLE... order_statuses" />
+                <marker date="1477845420302" expanded="true" signature="2272:2554" placeholder="CREATE TABLE... resorts" />
+                <marker date="1477845420302" expanded="true" signature="2272:2611" placeholder="CREATE TABLE... resorts" />
+                <marker date="1477845420302" expanded="true" signature="2649:2814" placeholder="CREATE TABLE... roles" />
+                <marker date="1477845420302" expanded="true" signature="2649:2852" placeholder="CREATE TABLE... roles" />
+                <marker date="1477845420302" expanded="true" signature="2649:2871" placeholder="CREATE TABLE... roles" />
+                <marker date="1477845420302" expanded="true" signature="2909:3199" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477845420302" expanded="true" signature="2909:3237" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477845420302" expanded="true" signature="2909:3256" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477845420302" expanded="true" signature="3294:3473" placeholder="CREATE TABLE... room_types" />
+                <marker date="1477845420302" expanded="true" signature="3294:3530" placeholder="CREATE TABLE... room_types" />
+                <marker date="1477845420302" expanded="true" signature="3568:3747" placeholder="CREATE TABLE... transports" />
+                <marker date="1477845420302" expanded="true" signature="3568:3804" placeholder="CREATE TABLE... transports" />
+                <marker date="1477845420302" expanded="true" signature="3842:4332" placeholder="CREATE TABLE... trips" />
+                <marker date="1477845420302" expanded="true" signature="3842:4389" placeholder="CREATE TABLE... trips" />
+                <marker date="1477845420302" expanded="true" signature="4427:4831" placeholder="CREATE TABLE... users" />
+                <marker date="1477845420302" expanded="true" signature="4427:4869" placeholder="CREATE TABLE... users" />
+                <marker date="1477845420302" expanded="true" signature="4427:4888" placeholder="CREATE TABLE... users" />
+                <marker date="1477845420302" expanded="true" signature="4926:5100" placeholder="CREATE TABLE... visas" />
+                <marker date="1477845420302" expanded="true" signature="4926:5138" placeholder="CREATE TABLE... visas" />
+                <marker date="1477845420302" expanded="true" signature="4926:5157" placeholder="CREATE TABLE... visas" />
+                <marker date="1477845420302" expanded="true" signature="5195:5302" placeholder="ALTER TABLE countries... " />
+                <marker date="1477845420302" expanded="true" signature="5323:5435" placeholder="ALTER TABLE s... " />
+                <marker date="1477845420302" expanded="true" signature="5456:5564" placeholder="ALTER TABLE hotels... " />
+                <marker date="1477845420302" expanded="true" signature="5585:5690" placeholder="ALTER TABLE rooms... " />
+                <marker date="1477845420302" expanded="true" signature="5711:5824" placeholder="ALTER TABLE rooms... " />
+                <marker date="1477845420302" expanded="true" signature="5845:5949" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="5970:6076" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="6097:6205" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="6226:6335" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="6356:6461" placeholder="ALTER TABLE clients... " />
+                <marker date="1477845420302" expanded="true" signature="6482:6585" placeholder="ALTER TABLE users... " />
+                <marker date="1477845420302" expanded="true" signature="6606:6710" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="6731:6852" placeholder="ALTER TABLE orders... " />
+                <marker date="1477845420302" expanded="true" signature="6873:6986" placeholder="ALTER TABLE trips... " />
+                <marker date="1477845420302" expanded="true" signature="7007:7039" placeholder="INSERT INTO roles... " />
+                <marker date="1477845420302" expanded="true" signature="7007:7046" placeholder="INSERT INTO roles... " />
+                <marker date="1477845420302" expanded="true" signature="7007:7049" placeholder="INSERT INTO roles... " />
+                <marker date="1477845420302" expanded="true" signature="7070:7114" placeholder="INSERT INTO roles... " />
+                <marker date="1477845420302" expanded="true" signature="7135:7178" placeholder="INSERT INTO roles... " />
+                <marker date="1477845420302" expanded="true" signature="7199:7246" placeholder="INSERT INTO transports... " />
+                <marker date="1477845420302" expanded="true" signature="7267:7314" placeholder="INSERT INTO transports... " />
+                <marker date="1477845420302" expanded="true" signature="7335:7380" placeholder="INSERT INTO transports... " />
+                <marker date="1477845420302" expanded="true" signature="7401:7447" placeholder="INSERT INTO transports... " />
+                <marker date="1477845420302" expanded="true" signature="7468:7517" placeholder="INSERT INTO visas... " />
+                <marker date="1477845420302" expanded="true" signature="7538:7583" placeholder="INSERT INTO visas... " />
+                <marker date="1477845420302" expanded="true" signature="7604:7651" placeholder="INSERT INTO visas... " />
+                <marker date="1477845420302" expanded="true" signature="7672:7716" placeholder="INSERT INTO visas... " />
+                <marker date="1477845420302" expanded="true" signature="7737:7803" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="7824:7884" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="7905:7955" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="7976:8044" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="8065:8120" placeholder="INSERT INTO order_ststuses... " />
+                <marker date="1477845420302" expanded="true" signature="8141:8191" placeholder="INSERT INTO room_types... " />
+                <marker date="1477845420302" expanded="true" signature="8212:8259" placeholder="INSERT INTO room_types... " />
+                <marker date="1477845420302" expanded="true" signature="8280:8328" placeholder="INSERT INTO room_types... " />
+                <marker date="1477845420302" expanded="true" signature="8349:8396" placeholder="INSERT INTO room_types... " />
+                <marker date="1477845420302" expanded="true" signature="8417:8467" placeholder="INSERT INTO room_types... " />
               </folding>
             </state>
           </provider>
@@ -384,78 +389,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/db_install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76376814">
-          <caret line="136" column="84" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.8376812">
+          <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
           <folding>
-            <marker date="1477845064968" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
-            <marker date="1477845064968" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
-            <marker date="1477845064968" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
-            <marker date="1477845064968" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
-            <marker date="1477845064968" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
-            <marker date="1477845064968" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
-            <marker date="1477845064968" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
-            <marker date="1477845064968" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
-            <marker date="1477845064968" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
-            <marker date="1477845064968" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
-            <marker date="1477845064968" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
-            <marker date="1477845064968" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
-            <marker date="1477845064968" expanded="true" signature="1215:1852" placeholder="CREATE TABLE... orders" />
-            <marker date="1477845064968" expanded="true" signature="1215:1899" placeholder="CREATE TABLE... orders" />
-            <marker date="1477845064968" expanded="true" signature="1215:1937" placeholder="CREATE TABLE... orders" />
-            <marker date="1477845064968" expanded="true" signature="1215:1956" placeholder="CREATE TABLE... orders" />
-            <marker date="1477845064968" expanded="true" signature="1994:2234" placeholder="CREATE TABLE... order_statuses" />
-            <marker date="1477845064968" expanded="true" signature="2272:2554" placeholder="CREATE TABLE... resorts" />
-            <marker date="1477845064968" expanded="true" signature="2272:2611" placeholder="CREATE TABLE... resorts" />
-            <marker date="1477845064968" expanded="true" signature="2649:2814" placeholder="CREATE TABLE... roles" />
-            <marker date="1477845064968" expanded="true" signature="2649:2852" placeholder="CREATE TABLE... roles" />
-            <marker date="1477845064968" expanded="true" signature="2649:2871" placeholder="CREATE TABLE... roles" />
-            <marker date="1477845064968" expanded="true" signature="2909:3199" placeholder="CREATE TABLE... rooms" />
-            <marker date="1477845064968" expanded="true" signature="2909:3237" placeholder="CREATE TABLE... rooms" />
-            <marker date="1477845064968" expanded="true" signature="2909:3256" placeholder="CREATE TABLE... rooms" />
-            <marker date="1477845064968" expanded="true" signature="3294:3473" placeholder="CREATE TABLE... room_types" />
-            <marker date="1477845064968" expanded="true" signature="3294:3530" placeholder="CREATE TABLE... room_types" />
-            <marker date="1477845064968" expanded="true" signature="3568:3747" placeholder="CREATE TABLE... transports" />
-            <marker date="1477845064968" expanded="true" signature="3568:3804" placeholder="CREATE TABLE... transports" />
-            <marker date="1477845064968" expanded="true" signature="3842:4332" placeholder="CREATE TABLE... trips" />
-            <marker date="1477845064968" expanded="true" signature="3842:4389" placeholder="CREATE TABLE... trips" />
-            <marker date="1477845064968" expanded="true" signature="4427:4831" placeholder="CREATE TABLE... users" />
-            <marker date="1477845064968" expanded="true" signature="4427:4869" placeholder="CREATE TABLE... users" />
-            <marker date="1477845064968" expanded="true" signature="4427:4888" placeholder="CREATE TABLE... users" />
-            <marker date="1477845064968" expanded="true" signature="4926:5100" placeholder="CREATE TABLE... visas" />
-            <marker date="1477845064968" expanded="true" signature="4926:5138" placeholder="CREATE TABLE... visas" />
-            <marker date="1477845064968" expanded="true" signature="4926:5157" placeholder="CREATE TABLE... visas" />
-            <marker date="1477845064968" expanded="true" signature="5195:5302" placeholder="ALTER TABLE countries... " />
-            <marker date="1477845064968" expanded="true" signature="5323:5435" placeholder="ALTER TABLE s... " />
-            <marker date="1477845064968" expanded="true" signature="5456:5564" placeholder="ALTER TABLE hotels... " />
-            <marker date="1477845064968" expanded="true" signature="5585:5690" placeholder="ALTER TABLE rooms... " />
-            <marker date="1477845064968" expanded="true" signature="5711:5824" placeholder="ALTER TABLE rooms... " />
-            <marker date="1477845064968" expanded="true" signature="5845:5949" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="5970:6076" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="6097:6205" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="6226:6335" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="6356:6461" placeholder="ALTER TABLE clients... " />
-            <marker date="1477845064968" expanded="true" signature="6482:6585" placeholder="ALTER TABLE users... " />
-            <marker date="1477845064968" expanded="true" signature="6606:6710" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="6731:6852" placeholder="ALTER TABLE orders... " />
-            <marker date="1477845064968" expanded="true" signature="6873:6986" placeholder="ALTER TABLE trips... " />
-            <marker date="1477845064968" expanded="true" signature="7007:7039" placeholder="INSERT INTO roles... " />
-            <marker date="1477845064968" expanded="true" signature="7007:7046" placeholder="INSERT INTO roles... " />
-            <marker date="1477845064968" expanded="true" signature="7007:7049" placeholder="INSERT INTO roles... " />
-            <marker date="1477845064968" expanded="true" signature="7070:7114" placeholder="INSERT INTO roles... " />
-            <marker date="1477845064968" expanded="true" signature="7135:7178" placeholder="INSERT INTO roles... " />
-            <marker date="1477845064968" expanded="true" signature="7199:7246" placeholder="INSERT INTO transports... " />
-            <marker date="1477845064968" expanded="true" signature="7267:7314" placeholder="INSERT INTO transports... " />
-            <marker date="1477845064968" expanded="true" signature="7335:7380" placeholder="INSERT INTO transports... " />
-            <marker date="1477845064968" expanded="true" signature="7401:7447" placeholder="INSERT INTO transports... " />
-            <marker date="1477845064968" expanded="true" signature="7468:7517" placeholder="INSERT INTO visas... " />
-            <marker date="1477845064968" expanded="true" signature="7538:7583" placeholder="INSERT INTO visas... " />
-            <marker date="1477845064968" expanded="true" signature="7604:7651" placeholder="INSERT INTO visas... " />
-            <marker date="1477845064968" expanded="true" signature="7672:7716" placeholder="INSERT INTO visas... " />
-            <marker date="1477845064968" expanded="true" signature="7737:7803" placeholder="INSERT INTO order_ststuses... " />
-            <marker date="1477845064968" expanded="true" signature="7824:7884" placeholder="INSERT INTO order_ststuses... " />
-            <marker date="1477845064968" expanded="true" signature="7905:7955" placeholder="INSERT INTO order_ststuses... " />
-            <marker date="1477845064968" expanded="true" signature="7976:8044" placeholder="INSERT INTO order_ststuses... " />
-            <marker date="1477845064968" expanded="true" signature="8065:8120" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
+            <marker date="1477845420302" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
+            <marker date="1477845420302" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
+            <marker date="1477845420302" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
+            <marker date="1477845420302" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
+            <marker date="1477845420302" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
+            <marker date="1477845420302" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
+            <marker date="1477845420302" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
+            <marker date="1477845420302" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477845420302" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477845420302" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477845420302" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477845420302" expanded="true" signature="1215:1852" placeholder="CREATE TABLE... orders" />
+            <marker date="1477845420302" expanded="true" signature="1215:1899" placeholder="CREATE TABLE... orders" />
+            <marker date="1477845420302" expanded="true" signature="1215:1937" placeholder="CREATE TABLE... orders" />
+            <marker date="1477845420302" expanded="true" signature="1215:1956" placeholder="CREATE TABLE... orders" />
+            <marker date="1477845420302" expanded="true" signature="1994:2234" placeholder="CREATE TABLE... order_statuses" />
+            <marker date="1477845420302" expanded="true" signature="2272:2554" placeholder="CREATE TABLE... resorts" />
+            <marker date="1477845420302" expanded="true" signature="2272:2611" placeholder="CREATE TABLE... resorts" />
+            <marker date="1477845420302" expanded="true" signature="2649:2814" placeholder="CREATE TABLE... roles" />
+            <marker date="1477845420302" expanded="true" signature="2649:2852" placeholder="CREATE TABLE... roles" />
+            <marker date="1477845420302" expanded="true" signature="2649:2871" placeholder="CREATE TABLE... roles" />
+            <marker date="1477845420302" expanded="true" signature="2909:3199" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477845420302" expanded="true" signature="2909:3237" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477845420302" expanded="true" signature="2909:3256" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477845420302" expanded="true" signature="3294:3473" placeholder="CREATE TABLE... room_types" />
+            <marker date="1477845420302" expanded="true" signature="3294:3530" placeholder="CREATE TABLE... room_types" />
+            <marker date="1477845420302" expanded="true" signature="3568:3747" placeholder="CREATE TABLE... transports" />
+            <marker date="1477845420302" expanded="true" signature="3568:3804" placeholder="CREATE TABLE... transports" />
+            <marker date="1477845420302" expanded="true" signature="3842:4332" placeholder="CREATE TABLE... trips" />
+            <marker date="1477845420302" expanded="true" signature="3842:4389" placeholder="CREATE TABLE... trips" />
+            <marker date="1477845420302" expanded="true" signature="4427:4831" placeholder="CREATE TABLE... users" />
+            <marker date="1477845420302" expanded="true" signature="4427:4869" placeholder="CREATE TABLE... users" />
+            <marker date="1477845420302" expanded="true" signature="4427:4888" placeholder="CREATE TABLE... users" />
+            <marker date="1477845420302" expanded="true" signature="4926:5100" placeholder="CREATE TABLE... visas" />
+            <marker date="1477845420302" expanded="true" signature="4926:5138" placeholder="CREATE TABLE... visas" />
+            <marker date="1477845420302" expanded="true" signature="4926:5157" placeholder="CREATE TABLE... visas" />
+            <marker date="1477845420302" expanded="true" signature="5195:5302" placeholder="ALTER TABLE countries... " />
+            <marker date="1477845420302" expanded="true" signature="5323:5435" placeholder="ALTER TABLE s... " />
+            <marker date="1477845420302" expanded="true" signature="5456:5564" placeholder="ALTER TABLE hotels... " />
+            <marker date="1477845420302" expanded="true" signature="5585:5690" placeholder="ALTER TABLE rooms... " />
+            <marker date="1477845420302" expanded="true" signature="5711:5824" placeholder="ALTER TABLE rooms... " />
+            <marker date="1477845420302" expanded="true" signature="5845:5949" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="5970:6076" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="6097:6205" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="6226:6335" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="6356:6461" placeholder="ALTER TABLE clients... " />
+            <marker date="1477845420302" expanded="true" signature="6482:6585" placeholder="ALTER TABLE users... " />
+            <marker date="1477845420302" expanded="true" signature="6606:6710" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="6731:6852" placeholder="ALTER TABLE orders... " />
+            <marker date="1477845420302" expanded="true" signature="6873:6986" placeholder="ALTER TABLE trips... " />
+            <marker date="1477845420302" expanded="true" signature="7007:7039" placeholder="INSERT INTO roles... " />
+            <marker date="1477845420302" expanded="true" signature="7007:7046" placeholder="INSERT INTO roles... " />
+            <marker date="1477845420302" expanded="true" signature="7007:7049" placeholder="INSERT INTO roles... " />
+            <marker date="1477845420302" expanded="true" signature="7070:7114" placeholder="INSERT INTO roles... " />
+            <marker date="1477845420302" expanded="true" signature="7135:7178" placeholder="INSERT INTO roles... " />
+            <marker date="1477845420302" expanded="true" signature="7199:7246" placeholder="INSERT INTO transports... " />
+            <marker date="1477845420302" expanded="true" signature="7267:7314" placeholder="INSERT INTO transports... " />
+            <marker date="1477845420302" expanded="true" signature="7335:7380" placeholder="INSERT INTO transports... " />
+            <marker date="1477845420302" expanded="true" signature="7401:7447" placeholder="INSERT INTO transports... " />
+            <marker date="1477845420302" expanded="true" signature="7468:7517" placeholder="INSERT INTO visas... " />
+            <marker date="1477845420302" expanded="true" signature="7538:7583" placeholder="INSERT INTO visas... " />
+            <marker date="1477845420302" expanded="true" signature="7604:7651" placeholder="INSERT INTO visas... " />
+            <marker date="1477845420302" expanded="true" signature="7672:7716" placeholder="INSERT INTO visas... " />
+            <marker date="1477845420302" expanded="true" signature="7737:7803" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="7824:7884" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="7905:7955" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="7976:8044" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="8065:8120" placeholder="INSERT INTO order_ststuses... " />
+            <marker date="1477845420302" expanded="true" signature="8141:8191" placeholder="INSERT INTO room_types... " />
+            <marker date="1477845420302" expanded="true" signature="8212:8259" placeholder="INSERT INTO room_types... " />
+            <marker date="1477845420302" expanded="true" signature="8280:8328" placeholder="INSERT INTO room_types... " />
+            <marker date="1477845420302" expanded="true" signature="8349:8396" placeholder="INSERT INTO room_types... " />
+            <marker date="1477845420302" expanded="true" signature="8417:8467" placeholder="INSERT INTO room_types... " />
           </folding>
         </state>
       </provider>
