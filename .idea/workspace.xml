@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3d9f4e7-e12d-4882-90b1-8124bcdaf731" name="Default" comment="" />
+    <list default="true" id="a3d9f4e7-e12d-4882-90b1-8124bcdaf731" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="touristic_uits.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,23 +23,95 @@
     <favorites_list name="touristic_uits" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.615385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54202896">
+            <state vertical-scroll-proportion="-14.384615">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_install.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/db_install.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54202896">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <marker date="1477838082201" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
+                <marker date="1477838082201" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
+                <marker date="1477838082201" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
+                <marker date="1477838082201" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
+                <marker date="1477838082201" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
+                <marker date="1477838082201" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
+                <marker date="1477838082201" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
+                <marker date="1477838082201" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
+                <marker date="1477838082201" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477838082201" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477838082201" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477838082201" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
+                <marker date="1477838082201" expanded="true" signature="1215:1726" placeholder="CREATE TABLE... orders" />
+                <marker date="1477838082201" expanded="true" signature="1215:1773" placeholder="CREATE TABLE... orders" />
+                <marker date="1477838082201" expanded="true" signature="1215:1811" placeholder="CREATE TABLE... orders" />
+                <marker date="1477838082201" expanded="true" signature="1215:1830" placeholder="CREATE TABLE... orders" />
+                <marker date="1477838082201" expanded="true" signature="1868:2150" placeholder="CREATE TABLE... resorts" />
+                <marker date="1477838082201" expanded="true" signature="1868:2207" placeholder="CREATE TABLE... resorts" />
+                <marker date="1477838082201" expanded="true" signature="2245:2410" placeholder="CREATE TABLE... roles" />
+                <marker date="1477838082201" expanded="true" signature="2245:2448" placeholder="CREATE TABLE... roles" />
+                <marker date="1477838082201" expanded="true" signature="2245:2467" placeholder="CREATE TABLE... roles" />
+                <marker date="1477838082201" expanded="true" signature="2505:2795" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477838082201" expanded="true" signature="2505:2833" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477838082201" expanded="true" signature="2505:2852" placeholder="CREATE TABLE... rooms" />
+                <marker date="1477838082201" expanded="true" signature="2890:3069" placeholder="CREATE TABLE... room_types" />
+                <marker date="1477838082201" expanded="true" signature="2890:3126" placeholder="CREATE TABLE... room_types" />
+                <marker date="1477838082201" expanded="true" signature="3164:3343" placeholder="CREATE TABLE... transports" />
+                <marker date="1477838082201" expanded="true" signature="3164:3400" placeholder="CREATE TABLE... transports" />
+                <marker date="1477838082201" expanded="true" signature="3438:3928" placeholder="CREATE TABLE... trips" />
+                <marker date="1477838082201" expanded="true" signature="3438:3985" placeholder="CREATE TABLE... trips" />
+                <marker date="1477838082201" expanded="true" signature="4023:4427" placeholder="CREATE TABLE... users" />
+                <marker date="1477838082201" expanded="true" signature="4023:4465" placeholder="CREATE TABLE... users" />
+                <marker date="1477838082201" expanded="true" signature="4023:4484" placeholder="CREATE TABLE... users" />
+                <marker date="1477838082201" expanded="true" signature="4522:4696" placeholder="CREATE TABLE... visas" />
+                <marker date="1477838082201" expanded="true" signature="4522:4734" placeholder="CREATE TABLE... visas" />
+                <marker date="1477838082201" expanded="true" signature="4522:4753" placeholder="CREATE TABLE... visas" />
+                <marker date="1477838082201" expanded="true" signature="4791:4898" placeholder="ALTER TABLE countries... " />
+                <marker date="1477838082201" expanded="true" signature="4919:5031" placeholder="ALTER TABLE s... " />
+                <marker date="1477838082201" expanded="true" signature="5052:5160" placeholder="ALTER TABLE hotels... " />
+                <marker date="1477838082201" expanded="true" signature="5181:5286" placeholder="ALTER TABLE rooms... " />
+                <marker date="1477838082201" expanded="true" signature="5307:5420" placeholder="ALTER TABLE rooms... " />
+                <marker date="1477838082201" expanded="true" signature="5441:5545" placeholder="ALTER TABLE orders... " />
+                <marker date="1477838082201" expanded="true" signature="5566:5672" placeholder="ALTER TABLE orders... " />
+                <marker date="1477838082201" expanded="true" signature="5693:5801" placeholder="ALTER TABLE orders... " />
+                <marker date="1477838082201" expanded="true" signature="5822:5927" placeholder="ALTER TABLE clients... " />
+                <marker date="1477838082201" expanded="true" signature="5948:6051" placeholder="ALTER TABLE users... " />
+                <marker date="1477838082201" expanded="true" signature="6072:6176" placeholder="ALTER TABLE orders... " />
+                <marker date="1477838082201" expanded="true" signature="6197:6310" placeholder="ALTER TABLE trips... " />
+                <marker date="1477838082201" expanded="true" signature="6331:6359" placeholder="INSERT INTO roles... " />
+                <marker date="1477838082201" expanded="true" signature="6331:6366" placeholder="INSERT INTO roles... " />
+                <marker date="1477838082201" expanded="true" signature="6331:6369" placeholder="INSERT INTO roles... " />
+                <marker date="1477838082201" expanded="true" signature="6390:6430" placeholder="INSERT INTO roles... " />
+                <marker date="1477838082201" expanded="true" signature="6451:6490" placeholder="INSERT INTO roles... " />
+                <marker date="1477838082201" expanded="true" signature="6511:6554" placeholder="INSERT INTO transports... " />
+                <marker date="1477838082201" expanded="true" signature="6575:6618" placeholder="INSERT INTO transports... " />
+                <marker date="1477838082201" expanded="true" signature="6639:6680" placeholder="INSERT INTO transports... " />
+                <marker date="1477838082201" expanded="true" signature="6701:6743" placeholder="INSERT INTO transports... " />
+                <marker date="1477838082201" expanded="true" signature="6764:6809" placeholder="INSERT INTO visas... " />
+                <marker date="1477838082201" expanded="true" signature="6830:6871" placeholder="INSERT INTO visas... " />
+                <marker date="1477838082201" expanded="true" signature="6892:6935" placeholder="INSERT INTO visas... " />
+                <marker date="1477838082201" expanded="true" signature="6956:6996" placeholder="INSERT INTO visas... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,11 +126,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/php/db_install.php" />
       </list>
     </option>
   </component>
@@ -64,6 +142,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -97,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,6 +195,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="touristic_uits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="touristic_uits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="touristic_uits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,13 +242,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/test/proxys" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -174,6 +269,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -184,6 +284,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3d9f4e7-e12d-4882-90b1-8124bcdaf731" name="Default" comment="" />
@@ -197,24 +300,32 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -224,17 +335,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
@@ -242,9 +345,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54202896">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/db_install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54202896">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <marker date="1477838082201" expanded="true" signature="41:323" placeholder="CREATE TABLE... clients" />
+            <marker date="1477838082201" expanded="true" signature="41:361" placeholder="CREATE TABLE... clients" />
+            <marker date="1477838082201" expanded="true" signature="41:380" placeholder="CREATE TABLE... clients" />
+            <marker date="1477838082201" expanded="true" signature="41:398" placeholder="CREATE TABLE... clients" />
+            <marker date="1477838082201" expanded="true" signature="418:698" placeholder="CREATE TABLE... countries" />
+            <marker date="1477838082201" expanded="true" signature="418:736" placeholder="CREATE TABLE... countries" />
+            <marker date="1477838082201" expanded="true" signature="418:755" placeholder="CREATE TABLE... countries" />
+            <marker date="1477838082201" expanded="true" signature="418:773" placeholder="CREATE TABLE... countries" />
+            <marker date="1477838082201" expanded="true" signature="793:1120" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477838082201" expanded="true" signature="793:1158" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477838082201" expanded="true" signature="793:1177" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477838082201" expanded="true" signature="793:1195" placeholder="CREATE TABLE... hotels" />
+            <marker date="1477838082201" expanded="true" signature="1215:1726" placeholder="CREATE TABLE... orders" />
+            <marker date="1477838082201" expanded="true" signature="1215:1773" placeholder="CREATE TABLE... orders" />
+            <marker date="1477838082201" expanded="true" signature="1215:1811" placeholder="CREATE TABLE... orders" />
+            <marker date="1477838082201" expanded="true" signature="1215:1830" placeholder="CREATE TABLE... orders" />
+            <marker date="1477838082201" expanded="true" signature="1868:2150" placeholder="CREATE TABLE... resorts" />
+            <marker date="1477838082201" expanded="true" signature="1868:2207" placeholder="CREATE TABLE... resorts" />
+            <marker date="1477838082201" expanded="true" signature="2245:2410" placeholder="CREATE TABLE... roles" />
+            <marker date="1477838082201" expanded="true" signature="2245:2448" placeholder="CREATE TABLE... roles" />
+            <marker date="1477838082201" expanded="true" signature="2245:2467" placeholder="CREATE TABLE... roles" />
+            <marker date="1477838082201" expanded="true" signature="2505:2795" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477838082201" expanded="true" signature="2505:2833" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477838082201" expanded="true" signature="2505:2852" placeholder="CREATE TABLE... rooms" />
+            <marker date="1477838082201" expanded="true" signature="2890:3069" placeholder="CREATE TABLE... room_types" />
+            <marker date="1477838082201" expanded="true" signature="2890:3126" placeholder="CREATE TABLE... room_types" />
+            <marker date="1477838082201" expanded="true" signature="3164:3343" placeholder="CREATE TABLE... transports" />
+            <marker date="1477838082201" expanded="true" signature="3164:3400" placeholder="CREATE TABLE... transports" />
+            <marker date="1477838082201" expanded="true" signature="3438:3928" placeholder="CREATE TABLE... trips" />
+            <marker date="1477838082201" expanded="true" signature="3438:3985" placeholder="CREATE TABLE... trips" />
+            <marker date="1477838082201" expanded="true" signature="4023:4427" placeholder="CREATE TABLE... users" />
+            <marker date="1477838082201" expanded="true" signature="4023:4465" placeholder="CREATE TABLE... users" />
+            <marker date="1477838082201" expanded="true" signature="4023:4484" placeholder="CREATE TABLE... users" />
+            <marker date="1477838082201" expanded="true" signature="4522:4696" placeholder="CREATE TABLE... visas" />
+            <marker date="1477838082201" expanded="true" signature="4522:4734" placeholder="CREATE TABLE... visas" />
+            <marker date="1477838082201" expanded="true" signature="4522:4753" placeholder="CREATE TABLE... visas" />
+            <marker date="1477838082201" expanded="true" signature="4791:4898" placeholder="ALTER TABLE countries... " />
+            <marker date="1477838082201" expanded="true" signature="4919:5031" placeholder="ALTER TABLE s... " />
+            <marker date="1477838082201" expanded="true" signature="5052:5160" placeholder="ALTER TABLE hotels... " />
+            <marker date="1477838082201" expanded="true" signature="5181:5286" placeholder="ALTER TABLE rooms... " />
+            <marker date="1477838082201" expanded="true" signature="5307:5420" placeholder="ALTER TABLE rooms... " />
+            <marker date="1477838082201" expanded="true" signature="5441:5545" placeholder="ALTER TABLE orders... " />
+            <marker date="1477838082201" expanded="true" signature="5566:5672" placeholder="ALTER TABLE orders... " />
+            <marker date="1477838082201" expanded="true" signature="5693:5801" placeholder="ALTER TABLE orders... " />
+            <marker date="1477838082201" expanded="true" signature="5822:5927" placeholder="ALTER TABLE clients... " />
+            <marker date="1477838082201" expanded="true" signature="5948:6051" placeholder="ALTER TABLE users... " />
+            <marker date="1477838082201" expanded="true" signature="6072:6176" placeholder="ALTER TABLE orders... " />
+            <marker date="1477838082201" expanded="true" signature="6197:6310" placeholder="ALTER TABLE trips... " />
+            <marker date="1477838082201" expanded="true" signature="6331:6359" placeholder="INSERT INTO roles... " />
+            <marker date="1477838082201" expanded="true" signature="6331:6366" placeholder="INSERT INTO roles... " />
+            <marker date="1477838082201" expanded="true" signature="6331:6369" placeholder="INSERT INTO roles... " />
+            <marker date="1477838082201" expanded="true" signature="6390:6430" placeholder="INSERT INTO roles... " />
+            <marker date="1477838082201" expanded="true" signature="6451:6490" placeholder="INSERT INTO roles... " />
+            <marker date="1477838082201" expanded="true" signature="6511:6554" placeholder="INSERT INTO transports... " />
+            <marker date="1477838082201" expanded="true" signature="6575:6618" placeholder="INSERT INTO transports... " />
+            <marker date="1477838082201" expanded="true" signature="6639:6680" placeholder="INSERT INTO transports... " />
+            <marker date="1477838082201" expanded="true" signature="6701:6743" placeholder="INSERT INTO transports... " />
+            <marker date="1477838082201" expanded="true" signature="6764:6809" placeholder="INSERT INTO visas... " />
+            <marker date="1477838082201" expanded="true" signature="6830:6871" placeholder="INSERT INTO visas... " />
+            <marker date="1477838082201" expanded="true" signature="6892:6935" placeholder="INSERT INTO visas... " />
+            <marker date="1477838082201" expanded="true" signature="6956:6996" placeholder="INSERT INTO visas... " />
+          </folding>
         </state>
       </provider>
     </entry>
