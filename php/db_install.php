@@ -29,12 +29,20 @@ $queries = array(
                     id INT (10) UNSIGNED NOT NULL AUTO_INCREMENT,
                     date TIMESTAMP NOT NULL,
                     client_id INT (10) UNSIGNED NOT NULL,
+                    manager_id INT (10) UNSIGNED NOT NULL,
+                    order_status_id TINYINT (1) UNSIGNED NOT NULL,
                     hotel_id INT (10) UNSIGNED NOT NULL,
                     room_id INT (11) UNSIGNED NOT NULL,
                     trip_id INT (11) UNSIGNED NOT NULL,
                     stay_period TINYINT (3) NOT NULL,
                     transfer_price FLOAT (6) DEFAULT 0,
                     total_price FLOAT (9) NOT NULL,
+                    PRIMARY KEY (id)
+                    ) Engine = InnoDB CHARACTER SET=UTF8;
+                ',
+                'CREATE TABLE order_statuses (
+                    id TINYINT (1) UNSIGNED NOT NULL AUTO_INCREMENT,
+                    type VARCHAR (25) NOT NULL,
                     PRIMARY KEY (id)
                     ) Engine = InnoDB CHARACTER SET=UTF8;
                 ',
@@ -109,21 +117,28 @@ $queries = array(
                 'ALTER TABLE orders ADD FOREIGN KEY (room_id) REFERENCES rooms (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (hotel_id) REFERENCES hotels (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (client_id) REFERENCES clients (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
+                'ALTER TABLE orders ADD FOREIGN KEY (manager_id) REFERENCES clients (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE clients ADD FOREIGN KEY (user_id) REFERENCES users (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE users ADD FOREIGN KEY (role_id) REFERENCES roles (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (trip_id) REFERENCES trips (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
+                'ALTER TABLE orders ADD FOREIGN KEY (order_status_id) REFERENCES order_statuses (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE trips ADD FOREIGN KEY (transport_id) REFERENCES transports (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
-                'INSERT INTO roles VALUES ( , "admin" );',
-                'INSERT INTO roles VALUES ( , "manager" );',
-                'INSERT INTO roles VALUES ( , "client" );',
-                'INSERT INTO transports VALUES ( , "plain" );',
-                'INSERT INTO transports VALUES ( , "train" );',
-                'INSERT INTO transports VALUES ( , "bus" );',
-                'INSERT INTO transports VALUES ( , "ship" );',
-                'INSERT INTO visas VALUES ( , "not required" );',
-                'INSERT INTO visas VALUES ( , "schengen" );',
-                'INSERT INTO visas VALUES ( , "on arrival" );',
-                'INSERT INTO visas VALUES ( , "prepaid" );'
+                'INSERT INTO roles VALUES ( NULL, "admin" );',
+                'INSERT INTO roles VALUES ( NULL, "manager" );',
+                'INSERT INTO roles VALUES ( NULL, "client" );',
+                'INSERT INTO transports VALUES ( NULL, "plain" );',
+                'INSERT INTO transports VALUES ( NULL, "train" );',
+                'INSERT INTO transports VALUES ( NULL, "bus" );',
+                'INSERT INTO transports VALUES ( NULL, "ship" );',
+                'INSERT INTO visas VALUES ( NULL, "not required" );',
+                'INSERT INTO visas VALUES ( NULL, "schengen" );',
+                'INSERT INTO visas VALUES ( NULL, "on arrival" );',
+                'INSERT INTO visas VALUES ( NULL, "prepaid" );',
+                'INSERT INTO order_statuses VALUES ( NULL, "waiting for payments" );',
+                'INSERT INTO order_statuses VALUES ( NULL, "partially paid" );',
+                'INSERT INTO order_statuses VALUES ( NULL, "paid" );',
+                'INSERT INTO order_statuses VALUES ( NULL, "successfully completed" );',
+                'INSERT INTO order_statuses VALUES ( NULL, "cancelled" );'
 );
 
 $server   = 'localhost';
