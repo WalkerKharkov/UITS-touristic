@@ -33,6 +33,7 @@ $queries = array(
                     order_status_id TINYINT (1) UNSIGNED NOT NULL,
                     hotel_id INT (10) UNSIGNED NOT NULL,
                     room_id INT (11) UNSIGNED NOT NULL,
+                    board_id INT (11) UNSIGNED NOT NULL,
                     trip_id INT (11) UNSIGNED NOT NULL,
                     stay_period TINYINT (3) NOT NULL,
                     transfer_price FLOAT (6) DEFAULT 0,
@@ -68,6 +69,19 @@ $queries = array(
                     PRIMARY KEY (id)
                     ) Engine = InnoDB CHARACTER SET=UTF8;
                 ',
+                'CREATE TABLE boards (
+                    id INT (11) UNSIGNED NOT NULL AUTO_INCREMENT,
+                    hotel_id INT (11) UNSIGNED NOT NULL,
+                    board_type_id TINYINT (1) UNSIGNED NOT NULL,
+                    price FLOAT (9) NOT NULL,
+                    PRIMARY KEY (id)
+                    ) Engine = InnoDB CHARACTER SET=UTF8;
+                ',
+                'CREATE TABLE board_types (
+                    id TINYINT (1) UNSIGNED NOT NULL AUTO_INCREMENT,
+                    type VARCHAR (3) NOT NULL,
+                    PRIMARY KEY (id)
+                    ) Engine = InnoDB CHARACTER SET=UTF8;',
                 'CREATE TABLE room_types (
                     id TINYINT (1) UNSIGNED NOT NULL AUTO_INCREMENT,
                     type VARCHAR (15) NOT NULL,
@@ -114,6 +128,8 @@ $queries = array(
                 'ALTER TABLE hotels ADD FOREIGN KEY (resort_id) REFERENCES resorts (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE rooms ADD FOREIGN KEY (hotel_id) REFERENCES hotels (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE rooms ADD FOREIGN KEY (room_type_id) REFERENCES room_types (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
+                'ALTER TABLE boards ADD FOREIGN KEY (board_type_id) REFERENCES board_types (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
+                'ALTER TABLE boards ADD FOREIGN KEY (hotel_id) REFERENCES hotels (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (room_id) REFERENCES rooms (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (hotel_id) REFERENCES hotels (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (client_id) REFERENCES clients (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
@@ -121,6 +137,7 @@ $queries = array(
                 'ALTER TABLE clients ADD FOREIGN KEY (user_id) REFERENCES users (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE users ADD FOREIGN KEY (role_id) REFERENCES roles (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (trip_id) REFERENCES trips (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
+                'ALTER TABLE orders ADD FOREIGN KEY (board_id) REFERENCES boards (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE orders ADD FOREIGN KEY (order_status_id) REFERENCES order_statuses (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'ALTER TABLE trips ADD FOREIGN KEY (transport_id) REFERENCES transports (id) ON UPDATE RESTRICT ON DELETE RESTRICT;',
                 'INSERT INTO roles VALUES ( NULL, "admin" );',
@@ -143,7 +160,15 @@ $queries = array(
                 'INSERT INTO room_types VALUES ( NULL, "delux" );',
                 'INSERT INTO room_types VALUES ( NULL, "double" );',
                 'INSERT INTO room_types VALUES ( NULL, "villa" );',
-                'INSERT INTO room_types VALUES ( NULL, "bungalow" );'
+                'INSERT INTO room_types VALUES ( NULL, "bungalow" );',
+                'INSERT INTO board_types VALUES ( NULL, "RO" );',
+                'INSERT INTO board_types VALUES ( NULL, "BB" );',
+                'INSERT INTO board_types VALUES ( NULL, "HB" );',
+                'INSERT INTO board_types VALUES ( NULL, "HB+" );',
+                'INSERT INTO board_types VALUES ( NULL, "FB" );',
+                'INSERT INTO board_types VALUES ( NULL, "FB+" );',
+                'INSERT INTO board_types VALUES ( NULL, "AI" );',
+                'INSERT INTO board_types VALUES ( NULL, "UAI" );'
 );
 
 $server   = 'localhost';
